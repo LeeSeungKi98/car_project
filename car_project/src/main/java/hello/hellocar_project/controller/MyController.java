@@ -12,4 +12,31 @@ public class MyController {
 		return "main";
 	}
 	
+	@GetMapping("/car_introduction")
+		public void introduction() {
+	}
+	
+	@GetMapping("/car_information")
+	public void information() {
+}
+	
+	@GetMapping("/car_reservation")
+	public void reservation() {
+}
+	
+	@GetMapping("/car_check")
+	public void check() {
+}
+	@GetMapping("/car_support")
+	public void support() {
+		
+	}
+	@GetMapping("/car_join")
+	public void join() {
+		
+	}
+	@GetMapping("/car_login")
+	public void login() {
+		
+	}
 }

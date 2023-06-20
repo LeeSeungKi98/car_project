@@ -55,50 +55,11 @@ body,html {
 	margin-left: 10%;
 	font-size: xx-large;
 }
-section {
-	width: 100vw;
+.c_join {
+	width: 60vw;
 	height: 70%;
-	border:1px solid blue;
-	display: flex;
-}
-.sct01 {
-	width: 20%;
-	height: 100%;
-	border:1px solid black;
-}
-.now {
-	width: 100%;
-	height: 10%;
-	border: 1px solid red;
-	text-align: center;
-	font-size: x-large;
-	vertical-align: baseline;
-}
-.reservation {
-	width: 100%;
-	height: 90%;
-	border: 1px solid gray;
-}
-table {
-	width: 100%;
-	height: 50px;
-}
-.sct02 {
-	width: 60%;
-	height: 100%;
-	border:1px solid black;
-	background-image: url("/resources/images/car_main02.jpg");
-	background-size: cover;
-}
-.sct03 {
-	width: 20%;
-	height: 100%;
-	border:1px solid black;
-}
-footer {
-	width: 100vw;
-	height: 14%;
-	border:1px solid blue;
+	border:1px solid red;
+	margin: 0 auto;
 }
 </style>
 <title>Insert title here</title>
@@ -109,8 +70,8 @@ footer {
 <div class="top_menu01"></div>
 <div class="top_menu02"></div>
 <div class="top_menu03">
-<p class="menu_p"><a href="/car_login">login</a></p>
-<p class="menu_p"><a href="/car_join">join</a></p>
+<p class="menu_p"><a href="">login</a></p>
+<p class="menu_p"><a href="">join</a></p>
 </div>
 </div>
 <div class="main_menu">
@@ -120,23 +81,9 @@ footer {
 <p class="main_p"><a href="/car_check">예약 확인</a></p>
 <p class="main_p"><a href="/car_support">고객 지원</a></p>
 </div>
-<section>
-<div class="sct01">
-<div class="now">실시간 예약 현황</div>
-<div class="reservation">
-<table border="1">
-<tr>
-	<th>예약자</th>
-	<th>차량번호</th>
-	<th>예약날짜</th>
-</tr>
-</table></div>
-</div>
-<div class="sct02"></div>
-<div class="sct03">t</div>
-</section>
-<footer>footer</footer>
+<div class="c_join">
 
+</div>
 </div>
 </body>
 </html>
